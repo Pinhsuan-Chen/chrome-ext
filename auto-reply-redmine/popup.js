@@ -7,3 +7,11 @@
 // document.addEventListener('DOMContentLoaded', function() {
 //     document.getElementById('click-me').addEventListener('click', clickHandler);
 // });
+
+function clickHandler(e) {
+    
+    window.close(); // Note: window.close(), not this.close()
+}
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('click-me').addEventListener('click', clickHandler);
+});
