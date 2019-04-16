@@ -1,8 +1,9 @@
- {
+{
   "name": "jQuery DOM",
   "version": "1",
+  "manifest_version":2,
   "description": "Manipulate the DOM when the page is done loading",
-  "background_page": "background.html",
+  "background": "background.html",
   "browser_action": {
     "name": "Manipulate DOM",
     "icons": ["icon.png"],
