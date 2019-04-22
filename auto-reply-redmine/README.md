@@ -1,4 +1,4 @@
 TO-DO
-scroll top position 
 <!-- get issues id by url  -->
-set user to assign by previous assigner
+[V] set user to assign by previous assigner
+[ ] turn on and off button
